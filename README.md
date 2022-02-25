@@ -1,2 +1,2 @@
-# gabrielnaldi.github.ioi
+# gabrielnaldi.github.io
 Portfólio Gabriel Naldi
