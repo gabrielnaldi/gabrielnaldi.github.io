@@ -5,7 +5,15 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        rubik: ['Rubik', 'sans-serif'],
+      },
+      colors: {
+        bg: '#10101a',
+        main: '#2fbf71'
+      }
+    },
   },
   plugins: [],
 }
