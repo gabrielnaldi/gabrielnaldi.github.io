@@ -10,7 +10,7 @@ module.exports = {
         rubik: ['Rubik', 'sans-serif'],
       },
       colors: {
-        bg: '#10101a',
+        background: '#10101a',
         main: '#2fbf71'
       }
     },
