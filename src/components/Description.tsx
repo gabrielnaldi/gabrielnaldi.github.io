@@ -14,7 +14,7 @@ export function Description() {
                 I Am Passionate Full-stack <span className="text-main">Developer</span>.
             </h6>
 
-            <p className="text-zinc-300 font-normal max-w-[470px] mb-4">
+            <p className="text-zinc-400 font-normal max-w-[470px] mb-4">
                 I develop services for customers of all sizes, specializing in creating modern websites, web services, mobile apps, APIs and much more.
             </p>
 
