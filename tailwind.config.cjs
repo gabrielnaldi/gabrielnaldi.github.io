@@ -12,7 +12,8 @@ module.exports = {
       colors: {
         background: '#10101a',
         main: '#2fbf71',
-        description: '#ffffffcc'
+        description: '#ffffffcc',
+        card: '#0b0b13',
       },
       boxShadow: {
         btnMain: '#fff 4px 4px',
