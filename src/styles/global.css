@@ -1,4 +1,33 @@
 @tailwind base;
+
+:root {
+    --white: #fff;
+    --main: #2fbf71;
+    --bg: #0b0b13;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var() var(--main);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+  background-color: var(--bg);
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--bg);
+  border-radius: 5px;
+}
+
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--main);
+  border-radius: 14px;
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -9,5 +38,6 @@
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
     scroll-behavior: smooth;
+    color: #fff;
 }
 
