@@ -51,3 +51,43 @@ export const experiencesList: Array<ExperienceData> = [
         level: 'Experienced'
     },
 ]
+
+
+export const frontendExperiencesList: Array<ExperienceData> = [
+    {
+        title: 'Node.Js',
+        level: 'Experienced'
+    },
+    {
+        title: 'Express',
+        level: 'Experienced',
+    },
+    {
+        title: 'Fastify',
+        level: 'Experienced'
+    },
+    {
+        title: 'NestJs',
+        level: 'Basic'
+    },
+    {
+        title: 'MySQL',
+        level: 'Intermediate'
+    },
+    {
+        title: 'PostgreeSQL',
+        level: 'Intermediate'
+    },
+    {
+        title: 'PrismaORM',
+        level: 'Experienced'
+    },
+    {
+        title: 'PHP',
+        level: 'Basic'
+    },
+    {
+        title: 'Java',
+        level: 'Basic'
+    },
+]
