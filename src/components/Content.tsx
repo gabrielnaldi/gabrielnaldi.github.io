@@ -4,7 +4,7 @@ import { Experience } from "./Sections/Experience";
 
 export function Content() {
     return (
-        <div className="w-full flex flex-col gap-36">
+        <div className="w-full flex flex-col gap-32">
             <Home />
             <AboutMe />
             <Experience />

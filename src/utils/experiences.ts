@@ -55,7 +55,7 @@ export const experiencesList: Array<ExperienceData> = [
 
 export const frontendExperiencesList: Array<ExperienceData> = [
     {
-        title: 'Node.Js',
+        title: 'Node JS',
         level: 'Experienced'
     },
     {
@@ -67,7 +67,7 @@ export const frontendExperiencesList: Array<ExperienceData> = [
         level: 'Experienced'
     },
     {
-        title: 'NestJs',
+        title: 'Nest JS',
         level: 'Basic'
     },
     {
@@ -83,11 +83,19 @@ export const frontendExperiencesList: Array<ExperienceData> = [
         level: 'Experienced'
     },
     {
+        title: 'MongoDB',
+        level: 'Basic'
+    },
+    {
         title: 'PHP',
         level: 'Basic'
     },
     {
         title: 'Java',
+        level: 'Basic'
+    },
+    {
+        title: 'Python',
         level: 'Basic'
     },
 ]
