@@ -1,12 +1,12 @@
 import { BsFillPatchCheckFill } from "react-icons/bs";
 import { Level } from "../../../utils/interfaces";
 
-interface ExperienceElementProps {
+interface SkillsElementProps {
     title: string;
     level: Level;
 }
 
-export function ExperienceElement({ title, level }: ExperienceElementProps) {
+export function SkillsElement({ title, level }: SkillsElementProps) {
     return (
         <div className="flex justify-start gap-4 px-4 py-2">
             <div className="mt-1">

@@ -1,8 +1,8 @@
 import Fade from 'react-reveal/Fade';
 import { frontendExperiencesList } from '../../../utils/experiences';
-import { ExperienceElement } from './ExperienceElement';
+import { SkillsElement } from './SkillsElement';
 
-export function BackendExperiences() {
+export function BackendSkills() {
     return (
         <Fade right>
             <div className="bg-card rounded-3xl flex flex-col gap-8 items-center py-6 px-4 border border-transparent hover:border-main duration-300">
@@ -14,7 +14,7 @@ export function BackendExperiences() {
                 <div className="grid grid-cols-2 gap-x-10 gap-y-6 max-h-[250px] overflow-y-auto over">
                     {frontendExperiencesList.map(experience => {
                         return (
-                            <ExperienceElement key={experience.title} title={experience.title} level={experience.level} />
+                            <SkillsElement key={experience.title} title={experience.title} level={experience.level} />
                         )
                     })}
                 </div>
