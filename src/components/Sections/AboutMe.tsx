@@ -7,7 +7,7 @@ import { CardsArea } from '../CardsArea';
 
 export function AboutMe() {
     return (
-        <section id="about" className="w-full py-6 flex flex-col items-center justify-center gap-6 px-4">
+        <section id="about" className="overflow-hidden w-full py-6 flex flex-col items-center justify-center gap-6 px-4">
 
             <SectionHeader subtitle='Get to Know' title='About me' />
 

@@ -7,7 +7,7 @@ import { FrontendSkills } from "./Skills/FrontendSkills";
 export function Skills() {
     return (
         <section id="skills"
-            className="w-full px-4 py-6 flex flex-col gap-10"
+            className="overflow-hidden w-full px-4 py-6 flex flex-col gap-10"
         >
             <SectionHeader title="My Experience" subtitle="What Skills I Have" />
 
