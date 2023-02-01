@@ -1,4 +1,10 @@
 import { SectionHeader } from "../SectionHeader";
+import { WorkCard } from "./WorkProjects/WorkCard";
+import ProjectImg from '../../assets/project-placeholder.jpg';
+
+const github = 'https://github.com/gabrielnaldi';
+const live = 'https://github.com/gabrielnaldi';
+
 
 export function Portfolio() {
     return (
@@ -7,6 +13,13 @@ export function Portfolio() {
         >
             <SectionHeader title="Portfolio" subtitle="My Recent Work" />
 
+            <div className="grid grid-cols-3 gap-3">
+                <WorkCard github={github} image={ProjectImg} live={live} />
+                <WorkCard github={github} image={ProjectImg} live={live} />
+                <WorkCard github={github} image={ProjectImg} live={live} />
+                <WorkCard github={github} image={ProjectImg} live={live} />
+                <WorkCard github={github} image={ProjectImg} live={live} />
+            </div>
 
         </section >
     )
