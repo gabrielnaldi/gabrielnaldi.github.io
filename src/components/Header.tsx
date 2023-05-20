@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
-import { MobileNavbar } from './navbar/mobile';
+import { NavbarMobile } from './navbar/navbar-mobile';
 import { NavbarWeb } from './navbar/navbar-web';
 
 export function Header() {
     const [isMobileNavbarOpen, setIsMobileNavbarOpen] = useState(true);
 
-    const handleMobileNavitemClick = () => {
+    const handleNavitemClick = () => {
         setIsMobileNavbarOpen(false);
     }
 
@@ -21,10 +21,10 @@ export function Header() {
                     <AiOutlineMenu size={24} />
                 </span>
 
-                <NavbarWeb handleNavitemClick={handleMobileNavitemClick} />
+                <NavbarWeb handleNavitemClick={handleNavitemClick} />
 
                 {isMobileNavbarOpen &&
-                    <MobileNavbar handleMobileNavitemClick={handleMobileNavitemClick} />
+                    <NavbarMobile handleMobileNavitemClick={handleNavitemClick} />
                 }
             </div>
 

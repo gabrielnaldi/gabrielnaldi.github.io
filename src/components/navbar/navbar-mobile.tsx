@@ -1,10 +1,10 @@
-import { AiFillCloseCircle, AiOutlineMenu } from 'react-icons/ai'
+import { AiFillCloseCircle } from 'react-icons/ai'
 
-interface MobileNavbarProps {
+interface NavbarMobileProps {
     handleMobileNavitemClick: () => void;
 }
 
-export const MobileNavbar: React.FC<MobileNavbarProps> = ({ handleMobileNavitemClick }) => {
+export const NavbarMobile: React.FC<NavbarMobileProps> = ({ handleMobileNavitemClick }) => {
     return (
         <nav className="nav-container-mobile block sm:hidden">
             <ul className='grid grid-cols-1 gap-6'>
