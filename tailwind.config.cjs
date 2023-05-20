@@ -21,6 +21,9 @@ module.exports = {
       boxShadow: {
         btnMain: '#fff 4px 4px',
         btnSecondary: '#2fbf71 4px 4px',
+      },
+      maxWidth: {
+        '8xl': '1440px',
       }
     },
   },
