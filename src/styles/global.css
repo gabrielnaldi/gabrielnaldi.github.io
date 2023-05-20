@@ -43,6 +43,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
     color: #fff;
+    font-family: 'Rubik', sans-serif;
 }
 
 input, textarea, button, body {
