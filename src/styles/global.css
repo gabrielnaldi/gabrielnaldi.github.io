@@ -1,9 +1,14 @@
 @tailwind base;
 
 :root {
-    --white: #fff;
-    --main: #2fbf71;
-    --bg: #0b0b13;
+    --hue: 162;
+    --first-color: hsl(var(--hue), 100%, 40%);
+    --first-color-alt: hsl(var(--hue), 56%, 35%);
+    --title-color: hsl(228, 8%, 95%);
+    --text-color: hsl(228, 8%, 65%);
+    --container-color: hsl(228, 15%, 15%);
+    --body-color: hsl(228, 15%, 20%);
+    --nav-color: hsla(0, 0%, 10%, 0.3);
 }
 
 * {
@@ -36,8 +41,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Rubik', sans-serif;
     scroll-behavior: smooth;
     color: #fff;
 }
 
+input, textarea, button, body {
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+  background-color: var(--body-color);
+}

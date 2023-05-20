@@ -10,10 +10,13 @@ module.exports = {
         rubik: ['Rubik', 'sans-serif'],
       },
       colors: {
-        background: '#10101a',
-        main: '#2fbf71',
-        description: '#ffffffcc',
-        card: '#0b0b13',
+        firstColor: 'var(--first-color)',
+        firstColorAlt: 'var(--first-color-alt)',
+        titleColor: 'var(--title-color)',
+        textColor: 'var(--text-color)',
+        containerColor: 'var(--container-color)',
+        bodyColor: 'var(--body-color)',
+        navColor: 'var(--nav-color)',
       },
       boxShadow: {
         btnMain: '#fff 4px 4px',
