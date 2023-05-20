@@ -4,7 +4,7 @@ import { NavbarMobile } from './navbar/navbar-mobile';
 import { NavbarWeb } from './navbar/navbar-web';
 
 export function Header() {
-    const [isMobileNavbarOpen, setIsMobileNavbarOpen] = useState(true);
+    const [isMobileNavbarOpen, setIsMobileNavbarOpen] = useState(false);
 
     const handleNavitemClick = () => {
         setIsMobileNavbarOpen(false);
