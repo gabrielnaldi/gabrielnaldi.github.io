@@ -53,3 +53,8 @@ input, textarea, button, body {
 body {
   background-color: var(--body-color);
 }
+
+
+.nav-container-mobile {
+  @apply fixed z-10 top-0 right-0 bottom-0 w-[65%] backdrop-blur-xl pt-16 pl-16
+}
