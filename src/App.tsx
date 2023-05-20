@@ -4,7 +4,7 @@ import './styles/global.css';
 function App() {
 
   return (
-    <div className="bg-background min-h-screen max-w-screen">
+    <div className="min-h-screen max-w-screen">
       <HomePage />
     </div>
   )
