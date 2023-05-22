@@ -18,7 +18,8 @@ export function Content() {
                             <span className="text-firstColor">Developer</span>
                         </h3>
                         <p className="text-textColor text-sm leading-6">
-                            With knowledge in development of modern Websites, Services, mobile Apps and APIs. I offer the best projects resulting in quality work.
+                            With knowledge in development of modern Websites, Services, mobile Apps and APIs. I offer the best projects resulting in {' '}
+                            <span className="text-textColor text-sm leading-6 whitespace-nowrap">quality work.</span>
                         </p>
                     </div>
                 </div>
