@@ -26,7 +26,7 @@ export function Content() {
                     </div>
                     <div className="text-center mb-12">
                         <div className="mb-12">
-                            <a href="#contact" className="font-medium">Let's talk</a>
+                            <a href="#contact" className="font-medium px-4 py-3 bg-firstColor rounded-md border-[1.3px] border-firstColor hover:bg-white hover:text-firstColor transition-colors duration-200">Let's talk</a>
                         </div>
                         <div className="flex justify-center items-center gap-4">
                             <a href="https://github.com/gabrielnaldi" target="_blank" className="h-8 w-8 bg-firstColorAlt flex items-center justify-center clip-path-bg hover:-translate-y-1 transition-transform duration-200">
