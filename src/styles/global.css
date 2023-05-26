@@ -1,9 +1,11 @@
 @tailwind base;
 
 :root {
-    --hue: 162;
-    --first-color: hsl(var(--hue), 100%, 40%);
-    --first-color-alt: hsl(var(--hue), 56%, 35%);
+    /* --hue: 14;
+    --first-color: hsl(var(--hue), 100%, 70%);
+    --first-color-alt: hsl(var(--hue), 56%, 35%); */
+    --first-color: #F79327;
+    --first-color-alt: #B70404;
     --title-color: hsl(228, 8%, 95%);
     --text-color: hsl(228, 8%, 65%);
     --container-color: hsl(228, 15%, 15%);
@@ -55,8 +57,9 @@ body {
 }
 
 .clip-path-bg{
-  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
 }
 
 
