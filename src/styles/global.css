@@ -1,4 +1,6 @@
 @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
     --first-color: #9336B4;
@@ -32,10 +34,6 @@
   border-radius: 14px;
 }
 
-@tailwind components;
-@tailwind utilities;
-
-
 * {
     padding: 0;
     margin: 0;
@@ -59,15 +57,18 @@ body {
   /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
 }
 
-
 .nav-container-mobile {
   @apply fixed z-10 top-0 right-0 bottom-0 w-[65%] bg-navColor backdrop-blur-xl pt-16 pl-16
 }
 
 .nav-item {
-  @apply text-base font-medium hover:text-firstColor transition-colors duration-500
+  @apply text-sm font-medium hover:text-firstColor transition-colors duration-500
 }
 
 .mobile-nav-item {
   @apply text-lg font-medium hover:text-firstColor transition-colors duration-500
+}
+
+.after-border {
+  @apply after:content-[''] after:absolute after:bottom-0 after:left-[50%] after:-translate-x-[50%] after:w-[50%] after:rounded-sm after:bg-firstColor after:h-[4px] md:after:left-0 md:after:translate-x-0
 }
