@@ -1,11 +1,8 @@
 @tailwind base;
 
 :root {
-    /* --hue: 14;
-    --first-color: hsl(var(--hue), 100%, 70%);
-    --first-color-alt: hsl(var(--hue), 56%, 35%); */
-    --first-color: #F79327;
-    --first-color-alt: #B70404;
+    --first-color: #9336B4;
+    --first-color-alt: #791E94;
     --title-color: hsl(228, 8%, 95%);
     --text-color: hsl(228, 8%, 65%);
     --container-color: hsl(228, 15%, 15%);
