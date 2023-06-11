@@ -10,7 +10,7 @@ export function HomeSection() {
                             <h3 className="text-2xl text-center font-semibold mb-2 md:text-left">
                                 Hello! I'm
                             </h3>
-                            <h1 className="text-white text-center text-6xl font-bold mb-2 md:text-left">Gabriel {' '}
+                            <h1 className="text-white text-center text-6xl font-bold mb-2 sm:whitespace-nowrap md:text-left">Gabriel {' '}
                                 <span className="text-white">
                                     Naldi
                                 </span>
