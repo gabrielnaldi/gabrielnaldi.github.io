@@ -11,7 +11,7 @@ export function Header() {
     }
 
     return (
-        <header className="z-10 fixed top-0 w-full h-16 bg-bodyColor" id='header'>
+        <header className="z-10 fixed top-0 w-full max-w-6xl h-16 bg-bodyColor border border-red-400" id='header'>
             <div className="px-8 py-4 flex justify-between items-center max-w-8xl mx-auto">
                 <span className='text-xl font-bold'>
                     Gabriel <span className='text-firstColor'>Naldi</span>
