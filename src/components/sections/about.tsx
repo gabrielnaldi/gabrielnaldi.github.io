@@ -7,7 +7,7 @@ export const AboutSection: React.FC = () => {
     return (
         <section id='about' className="mt-16">
             <div>
-                <SectionTitle title='About me' subtitle='Intro' />
+                <SectionTitle title='About me' subtitle='My' postSubtitle='Intro' />
                 <ul className="flex flex-wrap justify-center items-center gap-6 mb-8 max-w-2xl mx-auto">
                     <li className='bg-containerColor flex flex-col items-center justify-center gap-1 w-full max-w-[180px] p-4 rounded-lg border-[1.4px] border-containerColor hover:cursor-default hover:border-firstColor hover:brightness-110 transition-all duration-300'>
                         <TfiMedallAlt size={32} fill='#9336B4' />
