@@ -2,7 +2,7 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 
 export function HomeSection() {
     return (
-        <section id="home" className="">
+        <section id="home" className="pt-32">
             <div className="grid grid-cols-1 gap-16 md:grid-cols-2 md:justify-center">
                 <div className="flex flex-col gap-12">
                     <div className="pb-8 relative after-border">
