@@ -24,6 +24,9 @@ module.exports = {
       },
       maxWidth: {
         '8xl': '1440px',
+      },
+      gridTemplateColumns: {
+        'auto': 'repeat(auto-fit, 150px)'
       }
     },
   },
