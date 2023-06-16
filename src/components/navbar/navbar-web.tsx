@@ -13,6 +13,9 @@ export function NavbarWeb({ handleNavitemClick }: NavbarWebProps) {
                     <a href="#about" className='nav-item' onClick={handleNavitemClick}>About</a>
                 </li>
                 <li>
+                    <a href="#skills" className='nav-item' onClick={handleNavitemClick}>Skills</a>
+                </li>
+                <li>
                     <a href="#services" className='nav-item' onClick={handleNavitemClick}>Services</a>
                 </li>
                 <li>

@@ -15,6 +15,9 @@ export const NavbarMobile: React.FC<NavbarMobileProps> = ({ handleMobileNavitemC
                     <a href="#about" className='mobile-nav-item' onClick={handleMobileNavitemClick}>About</a>
                 </li>
                 <li>
+                    <a href="#skills" className='mobile-nav-item' onClick={handleMobileNavitemClick}>Skills</a>
+                </li>
+                <li>
                     <a href="#services" className='mobile-nav-item' onClick={handleMobileNavitemClick}>Services</a>
                 </li>
                 <li>
