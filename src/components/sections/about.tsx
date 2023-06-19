@@ -9,17 +9,17 @@ export const AboutSection: React.FC = () => {
             <div>
                 <SectionTitle title='About me' subtitle='My' postSubtitle='Intro' />
                 <ul className="flex flex-wrap justify-center items-center gap-6 mb-8 max-w-2xl mx-auto">
-                    <li className='bg-containerColor flex flex-col items-center justify-center gap-1 w-full max-w-[180px] p-4 rounded-lg border-[1.4px] border-containerColor hover:cursor-default hover:border-firstColor hover:brightness-110 transition-all duration-300'>
+                    <li className='bg-containerColor flex flex-col items-center justify-center gap-1 w-full max-w-[180px] p-4 rounded-lg border-[1.4px] border-containerColor hover:cursor-default hover:border-firstColor hover:brightness-110 transition-all duration-300 box-shadow'>
                         <TfiMedallAlt size={32} fill='#9336B4' />
                         <h2 className='font-bold'>Experience</h2>
                         <p className='text-textColor'>4+ Years working</p>
                     </li>
-                    <li className='bg-containerColor flex flex-col items-center justify-center gap-1 w-full max-w-[180px] p-4 rounded-lg border-[1.4px] border-containerColor hover:cursor-default hover:border-firstColor hover:brightness-110 transition-all duration-300'>
+                    <li className='bg-containerColor flex flex-col items-center justify-center gap-1 w-full max-w-[180px] p-4 rounded-lg border-[1.4px] border-containerColor hover:cursor-default hover:border-firstColor hover:brightness-110 transition-all duration-300 box-shadow'>
                         <VscFolderActive size={32} fill='#9336B4' />
                         <h2 className='font-bold'>Projects</h2>
                         <p className='text-textColor'>30+ Completed</p>
                     </li>
-                    <li className='bg-containerColor flex flex-col items-center justify-center gap-1 w-full max-w-[180px] p-4 rounded-lg border-[1.4px] border-containerColor hover:cursor-default hover:border-firstColor hover:brightness-110 transition-all duration-300'>
+                    <li className='bg-containerColor flex flex-col items-center justify-center gap-1 w-full max-w-[180px] p-4 rounded-lg border-[1.4px] border-containerColor hover:cursor-default hover:border-firstColor hover:brightness-110 transition-all duration-300 box-shadow'>
                         <AiOutlineUsergroupAdd size={32} fill='#9336B4' />
                         <h2 className='font-bold'>Clients</h2>
                         <p className='text-textColor'>20+ National</p>
