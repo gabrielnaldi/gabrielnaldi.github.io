@@ -36,3 +36,33 @@ export const frontEndSkills: ISkill[] = [
         name: 'Flutter'
     },
 ]
+
+export const BackEndSkills: ISkill[] = [
+    {
+        name: 'Git & GitHub'
+    },
+    {
+        name: 'Prisma ORM',
+    },
+    {
+        name: 'MySQL',
+    },
+    {
+        name: 'Docker',
+    },
+    {
+        name: 'Node.Js',
+    },
+    {
+        name: 'Express',
+    },
+    {
+        name: 'Nest.Js',
+    },
+    {
+        name: 'PostgreeSQL',
+    },
+    {
+        name: 'MongoDB',
+    },
+]
