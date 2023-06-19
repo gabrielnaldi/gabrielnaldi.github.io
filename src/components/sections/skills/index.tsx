@@ -13,7 +13,7 @@ export function SkillsSection() {
                 <div className="mb-12">
                     <a className="flex items-center justify-center max-w-fit mx-auto py-4 px-6 bg-firstColor border-[1.4px] border-firstColor rounded-lg font-bold transition-colors duration-300 hover:bg-white hover:text-firstColor" href="https://github.com/gabrielnaldi">See projects</a>
                 </div>
-                <div className="pb-12 grid gap-8">
+                <div className="pb-12 px-6 grid gap-8 md:grid-cols-2">
                     <Skill skillsList={frontEndSkills} title='Front-end' />
                     <Skill skillsList={BackEndSkills} title='Back-end' />
                 </div>

@@ -26,7 +26,8 @@ module.exports = {
         '8xl': '1440px',
       },
       gridTemplateColumns: {
-        'auto': 'repeat(auto-fit, 150px)'
+        'auto': 'repeat(auto-fit, 150px)',
+        'auto-100': 'repeat(auto-fit, minmax(150px, 1fr))'
       }
     },
   },

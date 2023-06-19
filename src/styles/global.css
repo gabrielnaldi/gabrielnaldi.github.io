@@ -57,6 +57,10 @@ body {
   /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
 }
 
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
 .nav-container-mobile {
   @apply fixed z-10 top-0 right-0 bottom-0 w-[65%] bg-navColor backdrop-blur-xl pt-16 pl-16
 }
