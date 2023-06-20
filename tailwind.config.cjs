@@ -25,8 +25,12 @@ module.exports = {
       maxWidth: {
         '8xl': '1440px',
       },
+      minHeight: {
+        'section': 'calc(100vh - 64px)',
+      },
       gridTemplateColumns: {
         'auto': 'repeat(auto-fit, 150px)',
+        'auto-300': 'repeat(auto-fit, minmax(150px, 300px))',
         'auto-100': 'repeat(auto-fit, minmax(150px, 150px))'
       }
     },
