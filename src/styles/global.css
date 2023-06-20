@@ -61,6 +61,10 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.filter-shadow {
+  filter: drop-shadow(5px 5px 10px #000);
+}
+
 .nav-container-mobile {
   @apply fixed z-10 top-0 right-0 bottom-0 w-[65%] bg-navColor backdrop-blur-xl pt-16 pl-16
 }
