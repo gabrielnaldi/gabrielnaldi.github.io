@@ -1,5 +1,6 @@
 import { AboutSection } from "./sections/about";
 import { HomeSection } from "./sections/home";
+import { ServicesSection } from "./sections/services";
 import { SkillsSection } from "./sections/skills";
 
 export function Content() {
@@ -8,6 +9,7 @@ export function Content() {
             <HomeSection />
             <AboutSection />
             <SkillsSection />
+            <ServicesSection />
         </div>
     )
 }
