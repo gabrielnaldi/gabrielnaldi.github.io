@@ -6,7 +6,7 @@ import { ServiceItem } from "./service-item";
 
 export function ServicesSection() {
     return (
-        <section id='services' className="min-h-section py-16">
+        <section id='services' className="min-h-section py-16 mb-16">
             <div className="">
                 <SectionTitle title="My services" subtitle="What I" postSubtitle="do" />
                 <div className="mb-8">
