@@ -32,7 +32,10 @@ module.exports = {
         'auto': 'repeat(auto-fit, 150px)',
         'auto-300': 'repeat(auto-fit, minmax(150px, 300px))',
         'auto-100': 'repeat(auto-fit, minmax(150px, 150px))'
-      }
+      },
+      backgroundImage: {
+        'project-1': "url('./projects/project-bg-placeholder.jpg')",
+      },
     },
   },
   plugins: [],

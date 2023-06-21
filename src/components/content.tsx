@@ -1,5 +1,6 @@
 import { AboutSection } from "./sections/about";
 import { HomeSection } from "./sections/home";
+import { ProjectsSection } from "./sections/projects";
 import { ServicesSection } from "./sections/services";
 import { SkillsSection } from "./sections/skills";
 
@@ -10,6 +11,7 @@ export function Content() {
             <AboutSection />
             <SkillsSection />
             <ServicesSection />
+            <ProjectsSection />
         </div>
     )
 }
