@@ -11,7 +11,7 @@ export function ServicesSection() {
                 <SectionTitle title="My services" subtitle="What I" postSubtitle="do" />
                 <div className="mb-8">
                     <p className="text-center text-textColor">
-                        Take a look at the next list. It illustrates some of the services I've developed over the years.
+                        Take a look at the next list. It illustrates some of the services I develop.
                     </p>
                 </div>
                 <ul className="grid gap-8 grid-cols-auto-300 justify-evenly">
