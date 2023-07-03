@@ -24,12 +24,12 @@ export function ProjectsSection() {
                     </p>
                 </div>
                 <ul className="p-4 grid grid-cols-auto-300 justify-evenly gap-y-6 gap-x-2">
-                    <ProjectItem title="Modern website" subtitle="Web" projectName="project-1" link='notifications-service' />
-                    <ProjectItem title="Modern website" subtitle="Web" projectName="project-1" />
-                    <ProjectItem title="Modern website" subtitle="Web" projectName="project-1" />
-                    <ProjectItem title="Modern website" subtitle="Web" projectName="project-1" />
-                    <ProjectItem title="Modern website" subtitle="Web" projectName="project-1" />
-                    <ProjectItem title="Modern website" subtitle="Web" projectName="project-1" />
+                    <ProjectItem title="Modern website" subtitle="Web" image="project-1.jpg" link='notifications-service' />
+                    <ProjectItem title="Modern website" subtitle="Web" image="project-1.jpg" />
+                    <ProjectItem title="Modern website" subtitle="Web" image="project-1.jpg" />
+                    <ProjectItem title="Modern website" subtitle="Web" image="project-1.jpg" />
+                    <ProjectItem title="Modern website" subtitle="Web" image="project-1.jpg" />
+                    <ProjectItem title="Modern website" subtitle="Web" image="project-1.jpg" />
                 </ul>
             </div>
         </section>
