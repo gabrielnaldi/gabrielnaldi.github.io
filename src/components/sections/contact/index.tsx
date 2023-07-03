@@ -8,7 +8,7 @@ export function ContactSection() {
     }, [])
 
     return (
-        <section id="contact" className="border min-h-section py-16">
+        <section id="contact" className="min-h-section py-16">
             <div>
                 <SectionTitle title="Contact Me" subtitle="Get in" postSubtitle="Touch" />
                 <ContactForm onSubmit={onSubmit} />
