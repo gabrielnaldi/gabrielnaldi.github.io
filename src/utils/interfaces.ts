@@ -5,3 +5,7 @@ export interface ExperienceData {
     title: string;
     level: Level;
 }
+
+export interface LooseObject {
+    [key: string]: any;
+}
