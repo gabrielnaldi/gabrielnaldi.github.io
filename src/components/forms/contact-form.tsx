@@ -4,8 +4,14 @@ import { LooseObject } from "../../utils/interfaces";
 import { contactFormSchema } from "../../validations/contact-form";
 import { toast } from "react-toastify";
 
+export interface ContactFormData {
+    name: string;
+    email: string;
+    message: string;
+}
+
 interface ContactFormProps {
-    onSubmit: (formData: LooseObject) => void;
+    onSubmit: (formData: ContactFormData) => void;
 }
 
 export function ContactForm({ onSubmit }: ContactFormProps) {
@@ -13,7 +19,7 @@ export function ContactForm({ onSubmit }: ContactFormProps) {
         name: '',
         email: '',
         message: '',
-    });
+    } as ContactFormData);
 
     const [errors, setErrors] = useState({
         name: '',
@@ -33,8 +39,7 @@ export function ContactForm({ onSubmit }: ContactFormProps) {
         const result = contactFormSchema.safeParse(formData);
 
         if(result.success) {
-            console.log('FOrm enviado', formData)
-            toast.success('Form sent successfully!')
+            onSubmit(formData);
         }        
         else {
             const errorsParsed = result.error.errors.map(err => {
@@ -45,8 +50,6 @@ export function ContactForm({ onSubmit }: ContactFormProps) {
                 }))
             })
         }
-        
-        // onSubmit(formData);
     }, [formData, onSubmit])
 
     return (
