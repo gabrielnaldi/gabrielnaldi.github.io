@@ -12,11 +12,12 @@ interface InputProps {
     inputClass?: string;
     placeholder?: string;
     required?: boolean;
+    value: string;
     onInputChange: (key: string, value: string) => void;
     error?: string;
 }
 
-export function Input({ name, id, placeholder, error, required = false, type = 'text', inputType = 'input', inputClass = '', onInputChange }: InputProps) {
+export function Input({ name, id, value, placeholder, error, required = false, type = 'text', inputType = 'input', inputClass = '', onInputChange }: InputProps) {
     const _handleChange = useCallback((event: LooseObject) => {
         onInputChange(name, event.currentTarget.value);
     }, [onInputChange])
@@ -33,6 +34,7 @@ export function Input({ name, id, placeholder, error, required = false, type = '
                     type={type}
                     id={id}
                     name={id}
+                    value={value}
                     placeholder={placeholder}
                     onChange={_handleChange}
                     required={required}
@@ -49,6 +51,7 @@ export function Input({ name, id, placeholder, error, required = false, type = '
                     <textarea
                     id={id}
                     name={id}
+                    value={value}
                     rows={6}
                     placeholder={placeholder}
                     required={required}
