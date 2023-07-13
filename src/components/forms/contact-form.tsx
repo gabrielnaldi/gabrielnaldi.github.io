@@ -1,8 +1,6 @@
 import { FormEvent, useCallback, useState } from "react";
 import { Input } from "../commons/input";
-import { LooseObject } from "../../utils/interfaces";
 import { contactFormSchema } from "../../validations/contact-form";
-import { toast } from "react-toastify";
 
 export interface ContactFormData {
     name: string;
@@ -31,7 +29,13 @@ export function ContactForm({ onSubmit }: ContactFormProps) {
         setFormData({ ...formData, [field]: value });
     }, [formData]);
 
-
+    const clearFormData = () => {
+        setFormData({
+            name: '',
+            email: '',
+            message: '',
+        });
+    };
 
     const handleSubmit = useCallback((event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
@@ -40,9 +44,10 @@ export function ContactForm({ onSubmit }: ContactFormProps) {
 
         if(result.success) {
             onSubmit(formData);
+            clearFormData();            
         }        
         else {
-            const errorsParsed = result.error.errors.map(err => {
+            result.error.errors.forEach(err => {
                 const { message, path } = err;
                 setErrors(state => ({
                     ...state,
@@ -50,7 +55,7 @@ export function ContactForm({ onSubmit }: ContactFormProps) {
                 }))
             })
         }
-    }, [formData, onSubmit])
+    }, [formData, onSubmit, clearFormData])
 
     return (
         <form onSubmit={handleSubmit} className="px-8 pb-8 max-w-3xl mx-auto">

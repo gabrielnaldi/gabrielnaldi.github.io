@@ -12,19 +12,15 @@ interface InputProps {
     inputClass?: string;
     placeholder?: string;
     required?: boolean;
+    error?: string;
     value: string;
     onInputChange: (key: string, value: string) => void;
-    error?: string;
 }
 
 export function Input({ name, id, value, placeholder, error, required = false, type = 'text', inputType = 'input', inputClass = '', onInputChange }: InputProps) {
     const _handleChange = useCallback((event: LooseObject) => {
         onInputChange(name, event.currentTarget.value);
     }, [onInputChange])
-
-    useEffect(() => {
-        if(error) console.log("Tem erro sim", error);
-    }, [error])
 
     switch (inputType) {
         case 'input':
