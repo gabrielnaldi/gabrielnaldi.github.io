@@ -14,23 +14,23 @@
 
 * {
   scrollbar-width: thin;
-  scrollbar-color: var() var(--main);
+  scrollbar-color: var() var(--first-color);
 }
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
   width: 15px;
-  background-color: var(--bg);
+  background-color: var(--body-color);
 }
 
 *::-webkit-scrollbar-track {
-  background: var(--bg);
+  background: var(--nav-color);
   border-radius: 5px;
 }
 
 
 *::-webkit-scrollbar-thumb {
-  background-color: var(--main);
+  background-color: var(--first-color);
   border-radius: 14px;
 }
 
