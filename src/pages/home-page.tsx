@@ -1,4 +1,5 @@
 import { Content } from "../components/content";
+import { Footer } from "../components/footer";
 import { Header } from "../components/header";
 
 export function HomePage() {
@@ -8,6 +9,7 @@ export function HomePage() {
                 <Header />
                 <Content />
             </div>
+            <Footer />
         </div>
     )
 }
