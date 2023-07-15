@@ -69,7 +69,7 @@ body {
 }
 
 .nav-item {
-  @apply text-sm font-medium hover:text-firstColor transition-colors duration-500
+  @apply text-sm font-semibold hover:bg-firstColorAlt transition-colors duration-500 p-2 rounded-lg
 }
 
 .mobile-nav-item {

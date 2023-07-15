@@ -5,7 +5,7 @@ interface NavbarWebProps {
 export function NavbarWeb({ handleNavitemClick }: NavbarWebProps) {
     return (
         <nav className='sm:block hidden'>
-            <ul className='flex items-center gap-6 md:gap-10'>
+            <ul className='flex items-center gap-2 md:gap-8'>
                 <li>
                     <a href="#home" className='nav-item' onClick={handleNavitemClick}>Home</a>
                 </li>
