@@ -1,9 +1,12 @@
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineCopyrightCircle } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineArrowUp, AiOutlineCopyrightCircle } from "react-icons/ai";
 
 export function Footer() {
     return (
         <section id="footer" className="bg-navColor">
-            <div className="px-4 py-12 text-center w-full flex flex-col gap-12 justify-center max-w-6xl mx-auto lg:grid lg:grid-cols-3">
+            <div className="relative px-4 py-12 text-center w-full flex flex-col gap-12 justify-center max-w-6xl mx-auto lg:grid lg:grid-cols-3">
+                <a href="#home" className="absolute top-0 right-8 flex h-8 w-8 rounded-full items-center justify-center bg-firstColor -translate-y-1/2">
+                    <AiOutlineArrowUp size={20} />
+                </a>
                 <div className="">
                     <h3 className="text-4xl font-semibold mb-1 ">
                         Gabriel <span className="text-firstColor">Naldi</span>
