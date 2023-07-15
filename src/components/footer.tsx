@@ -2,14 +2,14 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineCopyrightCircle
 
 export function Footer() {
     return (
-        <div className="px-4 py-12 text-center w-full bg-navColor">
-            <div className="mb-8">
-                <h3 className="text-3xl font-semibold mb-1">
+        <div className="px-4 py-12 text-center w-full bg-navColor flex flex-col gap-12">
+            <div className="">
+                <h3 className="text-4xl font-semibold mb-1">
                     Gabriel <span className="text-firstColor">Naldi</span>
                 </h3>
-                <h5 className="font-bold text-md">Full-stack Developer</h5>
+                <h5 className="font-bold text-lg">Full-stack Developer</h5>
             </div>
-            <div className="mb-8 flex gap-4 justify-center items-center md:justify-start">
+            <div className="flex gap-4 justify-center items-center md:justify-start">
                 <a href="https://github.com/gabrielnaldi" target="_blank" className="flex items-center justify-center bg-firstColorAlt p-1 rounded-full hover:-translate-y-1 transition-transform duration-300">
                     <AiFillGithub size={22} />
                 </a>
