@@ -1,3 +1,4 @@
+import { projectsList } from "../../../data/projects";
 import { SectionTitle } from "../section-title";
 import { ProjectItem } from "./project-item";
 
@@ -24,12 +25,11 @@ export function ProjectsSection() {
                     </p>
                 </div>
                 <ul className="p-4 grid grid-cols-auto-300 justify-evenly gap-y-6 gap-x-2">
-                    <ProjectItem title="Modern website" subtitle="Web" image="project-1.jpg" link='notifications-service' />
-                    <ProjectItem title="Modern website" subtitle="Web" image="project-1.jpg" />
-                    <ProjectItem title="Modern website" subtitle="Web" image="project-1.jpg" />
-                    <ProjectItem title="Modern website" subtitle="Web" image="project-1.jpg" />
-                    <ProjectItem title="Modern website" subtitle="Web" image="project-1.jpg" />
-                    <ProjectItem title="Modern website" subtitle="Web" image="project-1.jpg" />
+                    {projectsList.map(({title, subtitle, image, link}, index) => {
+                        return (
+                            <ProjectItem key={`${title}-${index}`} title={title} subtitle={subtitle} image={image} link={link} />
+                        )
+                    })}
                 </ul>
             </div>
         </section>
