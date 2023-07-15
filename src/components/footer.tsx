@@ -4,7 +4,7 @@ export function Footer() {
     return (
         <section id="footer" className="bg-navColor">
             <div className="relative px-4 py-12 text-center w-full flex flex-col gap-12 justify-center max-w-6xl mx-auto lg:grid lg:grid-cols-3">
-                <a href="#home" className="absolute top-0 right-8 flex h-8 w-8 rounded-full items-center justify-center bg-firstColor -translate-y-1/2">
+                <a href="#home" className="absolute top-0 right-8 flex h-8 w-8 rounded-full items-center justify-center bg-firstColor -translate-y-1/2 hover:brightness-125">
                     <AiOutlineArrowUp size={20} />
                 </a>
                 <div className="">
