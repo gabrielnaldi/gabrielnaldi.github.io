@@ -5,7 +5,7 @@ import { SectionTitle } from './section-title'
 
 export const AboutSection: React.FC = () => {
     return (
-        <section id='about' className="min-h-section py-16 mb-16">
+        <section id='about' className="py-16 mb-16">
             <div>
                 <SectionTitle title='About me' subtitle='My' postSubtitle='Intro' />
                 <ul className="flex flex-wrap justify-center items-center gap-6 mb-8 max-w-2xl mx-auto">

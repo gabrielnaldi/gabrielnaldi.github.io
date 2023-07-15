@@ -4,7 +4,7 @@ import { Skill } from "./skill";
 
 export function SkillsSection() {
     return (
-        <section id='skills' className="min-h-section py-16 mb-16">
+        <section id='skills' className="py-16 mb-16">
             <div className="">
                 <SectionTitle title='My experience' subtitle="What skills I" postSubtitle="have" />
                 <div className="mb-6">

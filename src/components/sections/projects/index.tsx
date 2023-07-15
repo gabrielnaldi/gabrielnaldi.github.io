@@ -3,7 +3,7 @@ import { ProjectItem } from "./project-item";
 
 export function ProjectsSection() {
     return (
-        <section id="projects" className="min-h-section py-16 mb-16">
+        <section id="projects" className="py-16 mb-16">
             <div className="">
                 <SectionTitle title="Recent Projects" subtitle="My" postSubtitle="Jobs" />
                 <div className="mb-6">
