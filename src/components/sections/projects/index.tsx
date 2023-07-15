@@ -1,3 +1,4 @@
+import { Fade } from "react-awesome-reveal";
 import { projectsList } from "../../../data/projects";
 import { SectionTitle } from "../section-title";
 import { ProjectItem } from "./project-item";
@@ -24,13 +25,15 @@ export function ProjectsSection() {
                         </span>
                     </p>
                 </div>
-                <ul className="p-4 grid grid-cols-auto-300 justify-evenly gap-y-6 gap-x-2">
-                    {projectsList.map(({title, subtitle, image, link}, index) => {
-                        return (
-                            <ProjectItem key={`${title}-${index}`} title={title} subtitle={subtitle} image={image} link={link} />
-                        )
-                    })}
-                </ul>
+                <Fade cascade direction="up" damping={0.25}>
+                    <ul className="p-4 grid grid-cols-auto-300 justify-evenly gap-y-6 gap-x-2">
+                        {projectsList.map(({title, subtitle, image, link}, index) => {
+                            return (
+                                <ProjectItem key={`${title}-${index}`} title={title} subtitle={subtitle} image={image} link={link} />
+                            )
+                        })}
+                    </ul>
+                </Fade>
             </div>
         </section>
     )
