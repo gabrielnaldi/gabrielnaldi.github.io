@@ -7,9 +7,9 @@ interface Project {
 
 export const projectsList: Project[] = [
     {
-        title: 'Modern website',
-        subtitle: 'Web',
-        image: 'project-1.jpg',
+        title: 'Notifications Service',
+        subtitle: 'Backend',
+        image: 'notifications-service.jpg',
         link: 'notifications-service'
     },
     {
