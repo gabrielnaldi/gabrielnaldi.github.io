@@ -17,6 +17,8 @@ module.exports = {
         containerColor: 'var(--container-color)',
         bodyColor: 'var(--body-color)',
         navColor: 'var(--nav-color)',
+        lightBlue: '#2cd9ff',
+        lightGreen: '#7eff82'
       },
       boxShadow: {
         btnMain: '#fff 4px 4px',
@@ -33,6 +35,17 @@ module.exports = {
         'auto-300': 'repeat(auto-fit, minmax(150px, 300px))',
         'auto-100': 'repeat(auto-fit, minmax(150px, 150px))'
       },
+      animation: {
+        'rotate-slow': 'rotate 5s linear infinite',
+        'rotate-fast': 'rotate 2.5s linear infinite'
+      },
+      keyframes: {
+        rotate: {
+          '0%': { transform: 'scale(1) rotate(360deg)'},
+          '50%': { transform: 'scale(.8) rotate(-360deg)'},
+          '100%': { transform: 'scale(1) rotate(360deg)'}
+        }
+      }
     },
   },
   plugins: [],
