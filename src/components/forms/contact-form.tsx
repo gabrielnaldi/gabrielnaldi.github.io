@@ -57,19 +57,14 @@ export function ContactForm({ onSubmit }: ContactFormProps) {
             })
         }
     }, [formData, onSubmit, clearFormData])
-
     return (
         <form onSubmit={handleSubmit} className="px-8 pb-8 max-w-3xl mx-auto">
-            <div className="grid grid-cols-1 gap-2">
-               <Fade direction="down">
-                    <div className="grid grid-cols-1 gap-2 justify-evenly sm:grid-cols-2">
-                        <Input name="name" id="name" value={formData.name} onInputChange={handleChange} placeholder='Enter your name...' error={errors.name} />
-                        <Input name="email" id="email" value={formData.email} onInputChange={handleChange} placeholder='Enter your email...' error={errors.email}/>
-                    </div>
-               </Fade>
-                <Fade direction="up">
-                    <Input name="message" id="message" value={formData.message} onInputChange={handleChange} inputType="textarea" placeholder='Enter your message...' type="textarea" error={errors.message}/>
-                </Fade>
+            <div className="grid grid-cols-1 gap-2 animate-fade-in">
+                <div className="grid grid-cols-1 gap-2 justify-evenly sm:grid-cols-2">
+                    <Input name="name" id="name" value={formData.name} onInputChange={handleChange} placeholder='Enter your name...' error={errors.name} />
+                    <Input name="email" id="email" value={formData.email} onInputChange={handleChange} placeholder='Enter your email...' error={errors.email}/>
+                </div>
+                <Input name="message" id="message" value={formData.message} onInputChange={handleChange} inputType="textarea" placeholder='Enter your message...' type="textarea" error={errors.message}/>
             </div>
             <Fade>
                 <div className="flex mt-12">

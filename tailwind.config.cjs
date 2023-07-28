@@ -37,13 +37,18 @@ module.exports = {
       },
       animation: {
         'rotate-slow': 'rotate 5s linear infinite',
-        'rotate-fast': 'rotate 2.5s linear infinite'
+        'rotate-fast': 'rotate 2.5s linear infinite',
+        'fade-in': 'fade 2s ease-in'
       },
       keyframes: {
         rotate: {
           '0%': { transform: 'scale(1) rotate(360deg)'},
           '50%': { transform: 'scale(.8) rotate(-360deg)'},
           '100%': { transform: 'scale(1) rotate(360deg)'}
+        },
+        fade: {
+          from : {opacity: 0},
+          to: {opacity: 1}
         }
       }
     },
